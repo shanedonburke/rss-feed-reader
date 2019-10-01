@@ -115,22 +115,7 @@ var App = /** @class */ (function (_super) {
             .then(function (res) { return _this.setState({ response: res.express }); })["catch"](function (err) { return console.log(err); });
     };
     App.prototype.render = function () {
-        var _this = this;
-        return (react_1["default"].createElement("div", { className: "App" },
-            react_1["default"].createElement("header", { className: "App-header" },
-                react_1["default"].createElement("img", { src: logo, className: "App-logo", alt: "logo" }),
-                react_1["default"].createElement("p", null,
-                    "Edit ",
-                    react_1["default"].createElement("code", null, "src/App.js"),
-                    " and save to reload."),
-                react_1["default"].createElement("a", { className: "App-link", href: "https://reactjs.org", target: "_blank", rel: "noopener noreferrer" }, "Learn React")),
-            react_1["default"].createElement("p", null, this.state.response),
-            react_1["default"].createElement("form", { onSubmit: this.handleSubmit },
-                react_1["default"].createElement("p", null,
-                    react_1["default"].createElement("strong", null, "Post to Server:")),
-                react_1["default"].createElement("input", { type: "text", value: this.state.post, onChange: function (e) { return _this.setState({ post: e.target.value }); } }),
-                react_1["default"].createElement("button", { type: "submit" }, "Submit")),
-            react_1["default"].createElement("p", null, this.state.responseToPost)));
+        return (react_1["default"].createElement("label", null, "Hi!"));
     };
     return App;
 }(react_1.Component));
