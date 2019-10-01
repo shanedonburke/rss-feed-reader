@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import './App.css';
+
+import NewFeedInput from './NewFeedInput'
 
 const logo = require("./logo.svg") as string;
 
-import './App.css';
+
 
 class App extends Component {
   state = {
@@ -27,7 +30,7 @@ class App extends Component {
   
   handleSubmit = async (e: any) => {
     e.preventDefault();
-    const response = await fetch('/api/world', {
+    const response = await fetch('/api/add-new-feed', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -41,7 +44,7 @@ class App extends Component {
   
   render() {
     return (
-      <label>Hi!</label>	
+      <NewFeedInput />	
     );
   }
 }
