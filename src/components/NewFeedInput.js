@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-type MyProps = { };
-type MyState = { value: string };
-
-class NewFeedInput extends Component<MyProps, MyState> {
-  constructor(props : MyProps) {
+class NewFeedInput extends React.Component {
+  constructor(props) {
     super(props);
     this.state = {value: ''};
 
@@ -12,11 +9,11 @@ class NewFeedInput extends Component<MyProps, MyState> {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event : any) {
+  handleChange(event) {
     this.setState({value: event.target.value});
   }
 
-  handleSubmit(event : any) {
+  handleSubmit(event) {
     alert('RSS Feed added: ' + this.state.value);
     event.preventDefault();
     
