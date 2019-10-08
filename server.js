@@ -12,11 +12,8 @@ app.use(express.static('client/public')) ;
 app.get('/', function (req, res) {
     res.sendFile($path.resolve(publicDir, 'index.html'));
 });
-app.get('/api/hello', function (req, res) {
-    res.send({ express: 'Hello From Express' });
+app.post('/add-feed', function (req, res) {
+    console.log(req.body)
 });
-app.post('/api/world', function (req, res) {
-    console.log(req.body);
-    res.send("I received your POST request. This is what you sent me: " + req.body.post);
-});
+
 app.listen(port, function () { return console.log("Listening on port " + port); });
