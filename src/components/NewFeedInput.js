@@ -14,11 +14,10 @@ class NewFeedInput extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('RSS Feed added: ' + this.state.value);
     event.preventDefault();
     
     const data = {
-        feed_url: this.state.value
+        feedURL: this.state.value
     }
     
 
@@ -26,6 +25,12 @@ class NewFeedInput extends React.Component {
       method: 'post',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify(data)
+     }).then((response) => {
+       response.text().then(
+         result => {
+           alert(result);
+         }
+       );
      });
 
   }
