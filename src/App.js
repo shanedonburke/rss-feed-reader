@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import LinkNav from './components/LinkNav'
 import NewFeedInput from './components/NewFeedInput'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
