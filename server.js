@@ -19,10 +19,23 @@ app.post('/add-feed', function (req, res) {
     const feedURL = req.body.feedURL;
     feedList.addFeed(feedURL).then(
         result => {
-            res.send(result);
+            res.status(200).send(result);
         },
         error => {
-            res.send(error);
+            res.status(500).send(error);
+        }
+    );
+});
+
+app.get('/get-feed-list', function(req, res) {
+    let feedListPromise = feedList.getFeedList();
+
+    feedListPromise.then(
+        feedList => {
+            res.status(200).send(JSON.stringify(feedList));
+        },
+        error => {
+            res.status(500).send(error);
         }
     );
 });

@@ -26,11 +26,7 @@ class NewFeedInput extends React.Component {
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify(data)
      }).then((response) => {
-       response.text().then(
-         result => {
-           alert(result);
-         }
-       );
+       alert(response.text());
      });
 
   }

@@ -14,18 +14,14 @@ async function addFeed(url) {
     } catch(err) {
         try {
             feedFileDict = await copyTemplate();
+            await feedFileDict.feedList.push(url);
         } catch(err) {
             console.log(err);
             return Promise.reject(err);
         }
     }
 
-    await new Promise((resolve, reject) => { 
-        feedFileDict.feedList.push(url);
-        resolve();
-    });
-
-    return writeFeedFile(feedFilePath, feedFileDict, url);
+    await writeFeedFile(feedFilePath, feedFileDict, url);
 }
 
 async function readFeedFile(path) {
@@ -74,6 +70,12 @@ async function copyTemplate(path) {
 
 }
 
+async function getFeedList() {
+    let feedDict = readFeedFile(feedFilePath);
+    await feedDict.feedList;
+}
+
 module.exports = {
-    addFeed: addFeed
+    addFeed: addFeed,
+    getFeedList: getFeedList
 };
