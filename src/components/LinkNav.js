@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class LinkNav extends React.Component{
   render() {
     return(
       <div className="topnav">
-        <a href="index.html">Your articles</a>
-        <a className="active" href="addArticles.html">Add article</a>
-        <a href="favorites.html">Favorites</a>
-        <a href="account.html">Account</a>
+        <Link to="/">Your articles</Link>
+        <Link to="/add-article">Add article</Link>
+        <Link to="/favorites">Favorites</Link>
+        <Link to="/account">Account</Link>
       </div>
     )
   }
