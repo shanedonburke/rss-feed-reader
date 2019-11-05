@@ -9,6 +9,7 @@ const Routes = () => (
       <Route path="/add-article" component={ App } />
       <Route path="/favorites" component={ App } />
       <Route exact path="/account" component={ App } />
+      <Route path="/my-feeds" component = { App } />
     </Switch>
   </BrowserRouter>
 );
