@@ -71,8 +71,8 @@ async function copyTemplate(path) {
 }
 
 async function getFeedList() {
-    let feedDict = readFeedFile(feedFilePath);
-    await feedDict.feedList;
+    let feedDict = await readFeedFile(feedFilePath);
+    return feedDict.feedList;
 }
 
 module.exports = {
