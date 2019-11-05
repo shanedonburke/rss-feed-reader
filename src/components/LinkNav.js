@@ -22,7 +22,7 @@ export default class LinkNav extends React.Component {
           {/* </Link> */}
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/my-feeds">My Feeds</Nav.Link>
+          <Nav.Link href="#">My Feeds</Nav.Link>
         </Nav.Item>
       </Nav>
     );
