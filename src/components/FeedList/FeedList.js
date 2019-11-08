@@ -1,47 +1,46 @@
-// /*jshint esversion: 6 */
-// "use-strict";
+/*jshint esversion: 6 */
+"use-strict";
 
-// import React from "react";
-// import FeedItem from "./FeedItem";
-// import "./feedList.css";
+import React from "react";
+import FeedItem from "./FeedItem";
+import "./feedList.css";
 
-// function FeedList(props) {
-//   return <div class="flex-container feed-list">{this.feedItems()}</div>;
-// }
+class FeedList extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  
+  componentDidMount() {
+    fetch("/get-feed-list")
+      .then(data => {
+        return data.json();
+      })
+      .then(res => {
+        this.setState({ urls: res.feedList });
+      });
+  }
 
-// FeedList.componentDidMount = function() {
-//   fetch('/some/async/data')
-//     .then(resp => resp.json())
-//     .then(data => this.setState({data}));
-// }
+  mapURLs() {
+    const items = this.state.urls.map((value, index) => (
+      <FeedItem url={value} />
+    ));
 
-// FeedList.prototype.feedURLs = async function() {
-//   const urls = await fetch("/get-feed-list")
-//     .then(data => {
-//       return data.json();
-//     })
-//     .then(res => {
-//       return res.feedList;
-//     })
-//     .catch(err => {
-//       return err;
-//     });
+    return items;
+  }
 
-//   return await urls;
-// };
+  render() {
+    if ("urls" in this.state) {
+      const items = this.mapURLs();
+      return <div class="flex-container feed-list">{items}</div>;
+    } else {
+      return (
+        <div>
+          <h2>There was an error obtaining the feed list.</h2>
+        </div>
+      );
+    }
+  }
+}
 
-// FeedList.prototype.feedItems = function() {
-//   const response = this.feedURLs()
-//     .then(feedURLs => {
-//       feedURLs.map((value, index) => {
-//         return <FeedItem url={value} />;
-//       });
-//     })
-//     .catch(err => {
-//       return <div>There was an error obtaining the list of feed URLs.</div>;
-//     });
-
-//     return await response;
-// };
-
-// export default FeedList;
+export default FeedList;
