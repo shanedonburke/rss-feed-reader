@@ -3,9 +3,10 @@ import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import logo from "./logo.svg";
 import LinkNav from "./components/LinkNav";
 import NewFeedInput from "./components/NewFeedInput";
-import FeedList from "./components/FeedList/FeedList";
+import getFeed from "./components/FeedList/FeedList";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DisplayFeed from "./components/FeedList/displayFeeds";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route exact path="/">
             <NewFeedInput />
             <div className="row">
-              <div className="column">
+              <DisplayFeed/>
+              {/* <div className="column">
                 <h2>Article 1</h2>
                 <p>content</p>
               </div>
@@ -35,10 +37,10 @@ function App() {
               <div className="column">
                 <h2>Article 3</h2>
                 <p>Contect</p>
-              </div>
+              </div> */}
             </div>
           </Route>
-          <Route path="/my-feeds" component={FeedList}/>
+          <Route path="/my-feeds" component={getFeed}/>
         </Switch>
       </div>
     // </BrowserRouter>

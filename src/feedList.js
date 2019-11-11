@@ -4,24 +4,25 @@ const $path = require("path");
 const dataDir = $path.resolve("public/data");
 
 const feedFileTemplatePath = $path.resolve(dataDir, "feedFileTemplate.json");
-const feedFilePath = $path.resolve(dataDir, "feedList.json");
+const feedFilePath = $path.resolve(dataDir, "currentFeed.json");
 
-async function addFeed(url) {
+async function addFeed(body) {
     let feedFileDict;
 
     try {
         feedFileDict = await readFeedFile(feedFilePath);
     } catch(err) {
-        try {
-            feedFileDict = await copyTemplate();
-            await feedFileDict.feedList.push(url);
-        } catch(err) {
-            console.log(err);
-            return Promise.reject(err);
-        }
+        return Promise.reject(err);
+        // try {
+        //     feedFileDict = await copyTemplate();
+        //     await feedFileDict.feedList.push(url);
+        // } catch(err) {
+        //     console.log(err);
+        //     return Promise.reject(err);
+        // }
     }
 
-    await writeFeedFile(feedFilePath, feedFileDict, url);
+    await writeFeedFile(feedFilePath, feedFileDict, body);
 }
 
 async function readFeedFile(path) {
@@ -43,7 +44,7 @@ async function writeFeedFile(path, feedFileDict, url) {
             if (err) {
                 reject("Error writing to feed file.");
             } else {
-                resolve("New feed " + url + " added successfully.");
+                resolve("New feed added successfully.");
             }
         });
     });
