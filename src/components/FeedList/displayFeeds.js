@@ -24,16 +24,25 @@ class DisplayFeed extends React.Component {
 
   render() {
     let feed = this.state.feed;
-    return (
-      <div style={divStyle}>
-          <h2>{feed.title}</h2>
-          <h3>{feed.description}</h3>
-           {feed.items && feed.items.map((item) => <div key={item.created} style={divStyle}>{item.title}</div>) }
-          {
-          //this.state.feed.items.map((item) => <p key={item.created}>{item.title}</p> )
-          }
-      </div>
-    )
+    if (feed != null) {
+      return (
+        <div>
+            <h1>{feed.title}</h1>
+            <h2>{feed.description}</h2>
+      {feed.items && feed.items.map((item) => {
+        return (<div key={item.created} style={divStyle}>
+          <h3>{item.title}</h3>
+          <h4>{item.description}</h4>
+        </div>)
+      }) 
+      }
+            {
+            //this.state.feed.items.map((item) => <p key={item.created}>{item.title}</p> )
+            }
+        </div>
+      )
+    }
+    else return <h2>invalid feed link or CORS error encountered. Try another link</h2>
   }
 }
 

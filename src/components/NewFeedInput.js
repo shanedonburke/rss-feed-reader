@@ -27,8 +27,11 @@ class NewFeedInput extends React.Component {
 
     Feed.load(this.state.value, (err, rss) => {
       console.log(rss);
-      this.setState({feed: rss});
-      data.feed = rss;
+      if (err) {
+        this.setState({feed: {title: "error"}});
+      }
+      else { this.setState({feed: rss}); }
+      data.feed = this.state.feed;
       console.log(this.state.feed);
     });
 

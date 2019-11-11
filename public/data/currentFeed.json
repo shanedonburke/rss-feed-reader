@@ -1,938 +1,448 @@
 {
   "items": [
     {
-      "title": "Esther Wojcicki on How to Raise Successful People",
-      "description": "The famed journalist and teacher explains her philosophy to parenting.",
-      "link": "https://www.wired.com/story/esther-susan-anne-wojcicki-raising-successful-people-wired25",
-      "url": "https://www.wired.com/story/esther-susan-anne-wojcicki-raising-successful-people-wired25",
-      "guid": {
-        "_": "5dc1a26a5b8c9000084c7cc7",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Adrienne So",
-      "pubDate": "Mon, 11 Nov 2019 17:57:04 +0000",
-      "created": 1573495024000,
+      "title": "In overworked Japan, Microsoft tested a four-day workweek. Productivity soared 40 percent.",
+      "description": "It is the latest example of a growing global movement to experiment with the concept of a four-day workweek.",
+      "link": "https://www.washingtonpost.com/business/2019/11/04/overworked-japan-microsoft-tested-four-day-workweek-productivity-soared-percent/",
+      "url": "https://www.washingtonpost.com/business/2019/11/04/overworked-japan-microsoft-tested-four-day-workweek-productivity-soared-percent/",
+      "guid": "https://www.washingtonpost.com/business/2019/11/04/overworked-japan-microsoft-tested-four-day-workweek-productivity-soared-percent/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Mon, 4 Nov 2019 12:35:06 EST",
+      "created": 1572888906000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc72cd84672dd0008e03465/master/pass/W25-EstherWojcicki-DinaLitovsky-2526.jpg"
+              "https://www.washingtonpost.com/resizer/FFiERSfZQVufGFK2Bvy8EqaC1GY=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2GQLELXYB4I6TMWSD434TWBNXM.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1598"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Disney\\+ Could Have More Than 100 Million Subscribers by 2025",
-      "description": "Netflix, meanwhile, could have more than 200 million by that time.",
-      "link": "https://www.wired.com/story/disney-plus-subscribers",
-      "url": "https://www.wired.com/story/disney-plus-subscribers",
-      "guid": {
-        "_": "5dc98b460aa0150008816ddb",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Angela Watercutter",
-      "pubDate": "Mon, 11 Nov 2019 17:14:42 +0000",
-      "created": 1573492482000,
+      "title": "Adam Neumann’s billion-dollar exit package from WeWork is a lesson in giving founders too much control",
+      "description": "Despite its stunning collapse, the company’s unorthodox and charismatic founder and former CEO, Adam Neumann, could still walk away with up to $1.2 billion.",
+      "link": "https://www.washingtonpost.com/business/2019/10/24/adam-neumanns-billion-dollar-exit-package-wework-is-lesson-giving-founders-too-much-control/",
+      "url": "https://www.washingtonpost.com/business/2019/10/24/adam-neumanns-billion-dollar-exit-package-wework-is-lesson-giving-founders-too-much-control/",
+      "guid": "https://www.washingtonpost.com/business/2019/10/24/adam-neumanns-billion-dollar-exit-package-wework-is-lesson-giving-founders-too-much-control/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Thu, 24 Oct 2019 11:54:01 EDT",
+      "created": 1571932441000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc98cf508f8500008719372/master/pass/Culture_Monitor_Mandalorian.jpg"
+              "https://www.washingtonpost.com/resizer/GqUBTk3JfcnTSptIxlExOT-RpWI=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4UW46LXVGEI6TMWSD434TWBNXM.jpg"
             ],
             "width": [
-              "1500"
-            ],
-            "height": [
-              "1125"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "‘For All Mankind’ Creator Ronald Moore Reimagines NASA’s History",
-      "description": "The creator of Apple TV+'s launch title talks to WIRED's Peter Rubin about what it would look like if the Russians beat us to the moon.",
-      "link": "https://www.wired.com/story/for-all-mankind-ron-moore-q-and-a-wired25",
-      "url": "https://www.wired.com/story/for-all-mankind-ron-moore-q-and-a-wired25",
-      "guid": {
-        "_": "5dc0d2063226bb000a1e5dd2",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Sara Harrison",
-      "pubDate": "Mon, 11 Nov 2019 16:49:52 +0000",
-      "created": 1573490992000,
+      "title": "New York City comptroller pushes 56 companies to commit to diversity and adopt the NFL’s Rooney Rule",
+      "description": "About two dozen of the 56 companies on Stringer's list appear to have no minorities on their board.",
+      "link": "https://www.washingtonpost.com/business/2019/10/11/new-york-city-comptroller-pushes-companies-improve-diversity-adopt-nfls-rooney-rule/",
+      "url": "https://www.washingtonpost.com/business/2019/10/11/new-york-city-comptroller-pushes-companies-improve-diversity-adopt-nfls-rooney-rule/",
+      "guid": "https://www.washingtonpost.com/business/2019/10/11/new-york-city-comptroller-pushes-companies-improve-diversity-adopt-nfls-rooney-rule/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Fri, 11 Oct 2019 08:30:18 EDT",
+      "created": 1570797018000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc82f7dd08f8f00081215fc/master/pass/W25-Mankind-2969.jpg"
+              "https://www.washingtonpost.com/resizer/lc7xHKKNN0tx_7p0FmLggXJIoG0=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/S2UFWBHMEUI6TIZJON4PX6Q3MM.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Rian Johnson to Star Wars Diversity Haters: 'Fuck 'Em'",
-      "description": "But, he says, the fandom shouldn’t let itself be defined by a few bigots.",
-      "link": "https://www.wired.com/story/chris-evans-rian-johnson-knives-out-wired25",
-      "url": "https://www.wired.com/story/chris-evans-rian-johnson-knives-out-wired25",
-      "guid": {
-        "_": "5dc0d534182de80009f7febc",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Angela Watercutter",
-      "pubDate": "Mon, 11 Nov 2019 15:41:23 +0000",
-      "created": 1573486883000,
+      "title": "More states are trying to protect black employees who want to wear natural hairstyles at work",
+      "description": "It's still legal in most states to ban natural hair styles like braids or dreadlocks. But several state legislators -- and a coalition of civil rights groups -- are trying to change that",
+      "link": "https://www.washingtonpost.com/business/2019/09/19/more-states-are-trying-protect-black-employees-who-want-wear-natural-hairstyles-work/",
+      "url": "https://www.washingtonpost.com/business/2019/09/19/more-states-are-trying-protect-black-employees-who-want-wear-natural-hairstyles-work/",
+      "guid": "https://www.washingtonpost.com/business/2019/09/19/more-states-are-trying-protect-black-employees-who-want-wear-natural-hairstyles-work/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Thu, 19 Sep 2019 07:00:24 EDT",
+      "created": 1568890824000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc846b008f8500008719370/master/pass/W25-KnivesOut-DinaLitovsky-3209.jpg"
+              "https://www.washingtonpost.com/resizer/pmU17ruzcEiYzAoJy0PutKHm6R8=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PXQHRVG26II6TINFCYVYVHE4UI.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Socked Into the Puppet-Hole on Wikipedia",
-      "description": "How a lowly WIRED columnist got caught up in a secret war at one of the world's biggest websites.",
-      "link": "https://www.wired.com/story/socked-into-the-puppet-hole-on-wikipedia",
-      "url": "https://www.wired.com/story/socked-into-the-puppet-hole-on-wikipedia",
-      "guid": {
-        "_": "5dc435e26183ed0008252180",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Ideas",
-      "dc_creator": "Noam Cohen",
-      "pubDate": "Mon, 11 Nov 2019 14:00:00 +0000",
-      "created": 1573480800000,
+      "title": "An Obama-era rule to collect worker pay data is headed for the chopping block",
+      "description": "A controversial collection of pay data by employers — supported by equal pay activists but opposed by many employers — could soon be curtailed.",
+      "link": "https://www.washingtonpost.com/business/2019/09/13/an-obama-era-rule-collect-worker-pay-data-is-headed-chopping-block/",
+      "url": "https://www.washingtonpost.com/business/2019/09/13/an-obama-era-rule-collect-worker-pay-data-is-headed-chopping-block/",
+      "guid": "https://www.washingtonpost.com/business/2019/09/13/an-obama-era-rule-collect-worker-pay-data-is-headed-chopping-block/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Fri, 13 Sep 2019 11:33:32 EDT",
+      "created": 1568388812000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc5f8a50aa0150008816dd3/master/pass/Ideas_Wiki-88029579.jpg"
+              "https://www.washingtonpost.com/resizer/yUcgQip56PFn8lriRulYXhOdxEw=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/A2FVWQGWHEI6TCJEDW35VR4X7M.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1800"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "15 Gift Ideas for Anyone Who Works from Home",
-      "description": "These serious (and silly) gifts are perfect for the telecommuter or part-time remote worker in your life.",
-      "link": "https://www.wired.com/gallery/work-from-home-gift-ideas",
-      "url": "https://www.wired.com/gallery/work-from-home-gift-ideas",
-      "guid": {
-        "_": "5db84ebc182de80009f7fe2b",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Gear",
-      "dc_creator": "Louryn Strampe",
-      "pubDate": "Mon, 11 Nov 2019 13:00:00 +0000",
-      "created": 1573477200000,
+      "title": "‘We blew it’: Forbes named 99 men and only one woman on its list of ‘most innovative leaders’",
+      "description": "A Twitterstorm erupted after the list, developed by business professors and published by Forbes, included only one woman. Forbes has created a task force in response.",
+      "link": "https://www.washingtonpost.com/business/2019/09/10/we-blew-it-forbes-named-men-only-one-woman-its-list-most-innovative-leaders/",
+      "url": "https://www.washingtonpost.com/business/2019/09/10/we-blew-it-forbes-named-men-only-one-woman-its-list-most-innovative-leaders/",
+      "guid": "https://www.washingtonpost.com/business/2019/09/10/we-blew-it-forbes-named-men-only-one-woman-its-list-most-innovative-leaders/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Tue, 10 Sep 2019 07:00:41 EDT",
+      "created": 1568113241000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc5b0cd8ebd000007e14510/master/pass/Gear-ember-temp-control-mug-from-amazon.jpg"
+              "https://www.washingtonpost.com/resizer/uaoPQ6ZWMDOsfU3Vh2s9p3-Ldwk=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TH3ECQS2D4I6TBBNPU7NP2ZZK4.jpg"
             ],
             "width": [
-              "2329"
-            ],
-            "height": [
-              "1746"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "How to Shut Up Your Gadgets at Night So You Can Sleep",
-      "description": "Cut out the beeps and bloops and get some rest for a change.",
-      "link": "https://www.wired.com/story/silence-gadgets-do-not-disturb-nighttime",
-      "url": "https://www.wired.com/story/silence-gadgets-do-not-disturb-nighttime",
-      "guid": {
-        "_": "5dc5c32bdea30b00096c6ca9",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Gear",
-      "dc_creator": "David Nield",
-      "pubDate": "Mon, 11 Nov 2019 12:00:00 +0000",
-      "created": 1573473600000,
+      "title": "What to watch for now that CEOs have rewritten the purpose of the corporation",
+      "description": "The Business Roundtable has abandoned shareholder primacy and embraced stakeholder capitalism.",
+      "link": "https://www.washingtonpost.com/business/2019/08/21/what-watch-now-that-ceos-have-rewritten-purpose-corporation/",
+      "url": "https://www.washingtonpost.com/business/2019/08/21/what-watch-now-that-ceos-have-rewritten-purpose-corporation/",
+      "guid": "https://www.washingtonpost.com/business/2019/08/21/what-watch-now-that-ceos-have-rewritten-purpose-corporation/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Wed, 21 Aug 2019 12:26:03 EDT",
+      "created": 1566404763000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc604d2b8fdfa0008290a1b/master/pass/Gear-Sleep-Notifications-1161200938.jpg"
+              "https://www.washingtonpost.com/resizer/Ett8MSsZ-eXYmYIOlIOwXHv-5mA=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CMNJFBGCRMI6TC7XZXRNTYEQKU.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1800"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Can AI Built to ‘Benefit Humanity’ Also Serve the Military?",
-      "description": "Microsoft's $10 billion Pentagon contract puts the independent artificial-intelligence lab OpenAI in an awkward position.",
-      "link": "https://www.wired.com/story/can-ai-built-to-benefit-humanity-also-serve-military",
-      "url": "https://www.wired.com/story/can-ai-built-to-benefit-humanity-also-serve-military",
-      "guid": {
-        "_": "5dc61cbb08f8500008719368",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Business",
-      "dc_creator": "Tom Simonite",
-      "pubDate": "Mon, 11 Nov 2019 12:00:00 +0000",
-      "created": 1573473600000,
+      "title": "Group of top CEOs says maximizing shareholder profits no longer can be the primary goal of corporations",
+      "description": "The new statement, released Monday by the Business Roundtable -- whose members are CEOs of America’s largest companies -- suggests balancing the needs of a company’s various constituencies and comes at a time of widening income inequality, rising expectations for corporate behavior and proposals from Democratic lawmakers that aim to restructure American capitalism.",
+      "link": "https://www.washingtonpost.com/business/2019/08/19/lobbying-group-powerful-ceos-is-rethinking-how-it-defines-corporations-purpose/",
+      "url": "https://www.washingtonpost.com/business/2019/08/19/lobbying-group-powerful-ceos-is-rethinking-how-it-defines-corporations-purpose/",
+      "guid": "https://www.washingtonpost.com/business/2019/08/19/lobbying-group-powerful-ceos-is-rethinking-how-it-defines-corporations-purpose/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Mon, 19 Aug 2019 18:18:39 EDT",
+      "created": 1566253119000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc70c6bdea30b00096c6cc6/master/pass/Biz-AltmanNadella-h_15241240.jpg"
+              "https://www.washingtonpost.com/resizer/3hoxWMZAlQvYdM9xGIdqVxKVlYE=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TYG3YZSLGII6TDH4FROQTGOCDY.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Today’s Cartoon: Dying Wish",
-      "description": "A final farewell.",
-      "link": "https://www.wired.com/story/wired-cartoons-week-13",
-      "url": "https://www.wired.com/story/wired-cartoons-week-13",
-      "guid": {
-        "_": "5dc5b853c955950008b267be",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "WIRED Cartoons",
-      "pubDate": "Mon, 11 Nov 2019 12:00:00 +0000",
-      "created": 1573473600000,
+      "title": "More states are banning questions about salary history in job interviews. What to say if you’re asked about it anyway.",
+      "description": "Employment lawyers, salary negotiation experts and employee rights advocates say the question is probably still getting asked — whether by naive or rogue hiring managers — and that violations of salary history questions posed behind closed doors could prove difficult to police.",
+      "link": "https://www.washingtonpost.com/business/2019/08/15/more-states-are-banning-questions-about-salary-history-job-interviews-what-say-if-youre-asked-about-it-anyways/",
+      "url": "https://www.washingtonpost.com/business/2019/08/15/more-states-are-banning-questions-about-salary-history-job-interviews-what-say-if-youre-asked-about-it-anyways/",
+      "guid": "https://www.washingtonpost.com/business/2019/08/15/more-states-are-banning-questions-about-salary-history-job-interviews-what-say-if-youre-asked-about-it-anyways/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Thu, 15 Aug 2019 07:00:53 EDT",
+      "created": 1565866853000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc5c2c24672dd0008e03437/master/pass/20191111-kenseth-deathwish.jpg"
+              "https://www.washingtonpost.com/resizer/9u_hm88dUZEYO1rRAVj5Dujh0hU=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YPGBSPV56EI6TKFQP3MKBVO4LU.jpg"
             ],
             "width": [
-              "1600"
-            ],
-            "height": [
-              "1580"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Astro Teller on How to Handle Failure (With an Infinite Budget)",
-      "description": "And what Alphabet’s moonshot factory, X, is going after next.",
-      "link": "https://www.wired.com/story/astro-teller-google-moonshot-factory-wired25",
-      "url": "https://www.wired.com/story/astro-teller-google-moonshot-factory-wired25",
-      "guid": {
-        "_": "5dc098643226bb000a1e5dbc",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Science",
-      "dc_creator": "Aarian Marshall",
-      "pubDate": "Sun, 10 Nov 2019 16:53:23 +0000",
-      "created": 1573404803000,
+      "title": "The lone all-male board in the S&P 500 just added a woman to its ranks",
+      "description": "Copart, the online vehicle auction company, became the final company to add a woman to its board. The announcement was made less than a week after The Washington Post published an analysis about the growth of female directors that noted Copart's lone status.",
+      "link": "https://www.washingtonpost.com/business/2019/07/25/lone-all-male-board-sp-just-added-woman-its-ranks/",
+      "url": "https://www.washingtonpost.com/business/2019/07/25/lone-all-male-board-sp-just-added-woman-its-ranks/",
+      "guid": "https://www.washingtonpost.com/business/2019/07/25/lone-all-male-board-sp-just-added-woman-its-ranks/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Thu, 25 Jul 2019 09:30:27 EDT",
+      "created": 1564061427000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc61779a0ab490008bbf5ed/master/pass/DSC_1881.jpg"
+              "https://www.washingtonpost.com/resizer/t03xfILQiLwFdyRoEQitAv6BSVY=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KEBACLFSMEI6PG4TXFYEHZL2EI.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1597"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "12 Gift Ideas for Wine or Beer Lovers in Your Life",
-      "description": "From growlers to glassware, these are our favorite gifts for beer, wine, or cocktail connoisseurs.",
-      "link": "https://www.wired.com/gallery/gift-ideas-for-wine-and-beer-lovers",
-      "url": "https://www.wired.com/gallery/gift-ideas-for-wine-and-beer-lovers",
-      "guid": {
-        "_": "5dc044b20da2b80009c7fba1",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Gear",
-      "dc_creator": "Parker Hall",
-      "pubDate": "Sun, 10 Nov 2019 14:00:00 +0000",
-      "created": 1573394400000,
+      "title": "After years of ‘glacial’ change, women now hold more than 1 in 4 corporate board seats",
+      "description": "After being stuck at 16 percent for several years, the percentage of women-held board seats in the S&P 500 now reaches nearly 27 percent, according to data from ISS Analytics. Just one company in the S&P 500 has an all-male board.",
+      "link": "https://www.washingtonpost.com/business/2019/07/17/after-years-glacial-change-women-now-hold-more-than-corporate-board-seats/",
+      "url": "https://www.washingtonpost.com/business/2019/07/17/after-years-glacial-change-women-now-hold-more-than-corporate-board-seats/",
+      "guid": "https://www.washingtonpost.com/business/2019/07/17/after-years-glacial-change-women-now-hold-more-than-corporate-board-seats/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Wed, 17 Jul 2019 11:01:10 EDT",
+      "created": 1563375670000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc43ea2182de80009f7fef1/master/pass/Gear-Feature-Coravin-Model-2-Elite-SOURCE-Coravin.jpg"
+              "https://www.washingtonpost.com/resizer/IIWel0lmF6mZl2pr1ywwoeBQ4nk=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KTNIMZEZVQI6TAYKEG43G23EVU.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1800"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Rudy Giuliani's Tweets Top This Week's Internet News Roundup",
-      "description": "Last week, Rudy Giuliani lawyered up on Twitter and the internet began to ask what triggers liberals and conservatives.",
-      "link": "https://www.wired.com/story/internet-week-245",
-      "url": "https://www.wired.com/story/internet-week-245",
-      "guid": {
-        "_": "5dc5925d6183ed000825218e",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Graeme McMillan",
-      "pubDate": "Sun, 10 Nov 2019 14:00:00 +0000",
-      "created": 1573394400000,
+      "title": "How employers are preparing for a gender non-binary world",
+      "description": "In small but measurable ways, some companies are starting to do more to recognize or accommodate employees or customers who don't identify as male or female.",
+      "link": "https://www.washingtonpost.com/business/2019/07/02/how-employers-are-preparing-gender-non-binary-world/",
+      "url": "https://www.washingtonpost.com/business/2019/07/02/how-employers-are-preparing-gender-non-binary-world/",
+      "guid": "https://www.washingtonpost.com/business/2019/07/02/how-employers-are-preparing-gender-non-binary-world/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Sun, 7 Jul 2019 22:21:30 EDT",
+      "created": 1562552490000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc5cf1eb8fdfa0008290a15/master/pass/Cul-rudy-963768468.jpg"
+              "https://www.washingtonpost.com/resizer/G4i0R-DeF71jdxHnkiKpiBp_ojU=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5XVRKETFDEI6RAOKXMKFSOWKUY.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "The Failure of Uber's Self-Driving Car, Polestar's Debut, and More Car News This Week",
-      "description": "Plus, a call to require helmets for cyclists, Paris battles e-scooters, and more.",
-      "link": "https://www.wired.com/story/uber-self-driving-crash-volvo-polestar-1-roundup",
-      "url": "https://www.wired.com/story/uber-self-driving-crash-volvo-polestar-1-roundup",
-      "guid": {
-        "_": "5dc5c737d08f8f00081215e7",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Transportation",
-      "dc_creator": "Aarian Marshall",
-      "pubDate": "Sun, 10 Nov 2019 14:00:00 +0000",
-      "created": 1573394400000,
+      "title": "‘A new era’: Trump and 2020 hopefuls are singling out more American companies by name",
+      "description": "How companies should respond as a presidential norm of criticizing American enterprise in more generic terms is giving way to a naming and shaming strategy on both sides of the aisle.",
+      "link": "https://www.washingtonpost.com/business/2019/06/13/new-era-trump-hopefuls-are-singling-out-more-american-companies-by-name/",
+      "url": "https://www.washingtonpost.com/business/2019/06/13/new-era-trump-hopefuls-are-singling-out-more-american-companies-by-name/",
+      "guid": "https://www.washingtonpost.com/business/2019/06/13/new-era-trump-hopefuls-are-singling-out-more-american-companies-by-name/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Thu, 13 Jun 2019 07:30:26 EDT",
+      "created": 1560425426000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc5ca1ec96358000859e717/master/pass/Transpo-Polestar1_Launch_SanFrancisco-0078.jpg"
+              "https://www.washingtonpost.com/resizer/okTP2t5t-S54QZxxINzD37j5lOQ=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YWO5KREHZYI6THLT4K5GXPY3TM.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "The Pursuit of Creativity Can Make Algorithms Much Smarter",
-      "description": "Neural networks are demonstrating profound leaps in their abilities when they're tasked with open exploration instead of a narrowly focused goal.",
-      "link": "https://www.wired.com/story/the-pursuit-of-creativity-can-make-algorithms-much-smarter",
-      "url": "https://www.wired.com/story/the-pursuit-of-creativity-can-make-algorithms-much-smarter",
-      "guid": {
-        "_": "5dc3368cf34856000812604d",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Science",
-      "dc_creator": "Matthew Hutson",
-      "pubDate": "Sun, 10 Nov 2019 13:00:00 +0000",
-      "created": 1573390800000,
+      "title": "How a dad’s lawsuit against JPMorgan Chase could lead to more equal parental leave elsewhere",
+      "description": "“If my phone ringing off the hook is any indication,” said one human resources consultant, “organizations have really been drawn to all the attention on this case.”",
+      "link": "https://www.washingtonpost.com/business/2019/06/06/how-dads-lawsuit-against-jpmorgan-chase-could-lead-more-equal-parental-leave-elsewhere/",
+      "url": "https://www.washingtonpost.com/business/2019/06/06/how-dads-lawsuit-against-jpmorgan-chase-could-lead-more-equal-parental-leave-elsewhere/",
+      "guid": "https://www.washingtonpost.com/business/2019/06/06/how-dads-lawsuit-against-jpmorgan-chase-could-lead-more-equal-parental-leave-elsewhere/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Thu, 6 Jun 2019 07:00:10 EDT",
+      "created": 1559818810000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc4c2b9c955950008b267b4/master/pass/Quanta_cover_Creative-AI_2880_Lede.jpg"
+              "https://www.washingtonpost.com/resizer/13dNJOYh5g3qnhxq_KUlSQCu9ug=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QAOBBEUBSAI6TNMF4NVRNJJRVI.jpg"
             ],
             "width": [
-              "2300"
-            ],
-            "height": [
-              "1295"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "The 10 Best Laptops for 2019 (And Why We Chose Them)",
-      "description": "These are the best Windows 10 Notebooks, MacBooks, and Chromebooks WIRED has tested.",
-      "link": "https://www.wired.com/gallery/best-laptops",
-      "url": "https://www.wired.com/gallery/best-laptops",
-      "guid": {
-        "_": "5bedae82db23f3775e46679e",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Gear",
-      "dc_creator": "WIRED Staff",
-      "pubDate": "Sun, 10 Nov 2019 13:00:00 +0000",
-      "created": 1573390800000,
+      "title": "Four women’s soccer stars have a new goal: Building a gender-neutral lifestyle business",
+      "description": "The members of the 2015 Women's World Cup championship team are launching a brand aimed at equality and inclusivity.",
+      "link": "https://www.washingtonpost.com/business/2019/06/04/four-womens-soccer-stars-have-new-goal-building-gender-neutral-lifestyle-business/",
+      "url": "https://www.washingtonpost.com/business/2019/06/04/four-womens-soccer-stars-have-new-goal-building-gender-neutral-lifestyle-business/",
+      "guid": "https://www.washingtonpost.com/business/2019/06/04/four-womens-soccer-stars-have-new-goal-building-gender-neutral-lifestyle-business/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Tue, 4 Jun 2019 06:00:45 EDT",
+      "created": 1559642445000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5d5377e8b558560009d18053/master/pass/Gear-DellXPS13-Laptops.jpg"
+              "https://www.washingtonpost.com/resizer/Ng2L788hwWmwrsTme2rw_tDCbHw=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CB44E47KQRCF3NIEYQLON5TDAY.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1800"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Amazon Kindle for Kids Review: Kid Tested, Mother Approved",
-      "description": "Get your child a Kindle and use it to support your local library!",
-      "link": "https://www.wired.com/review/amazon-kindle-kids-edition",
-      "url": "https://www.wired.com/review/amazon-kindle-kids-edition",
-      "guid": {
-        "_": "5dbc7140dc63930009ef00b5",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Gear",
-      "dc_creator": "Adrienne So",
-      "pubDate": "Sun, 10 Nov 2019 12:00:00 +0000",
-      "created": 1573387200000,
+      "title": "Corporations are getting dragged into a debate they’ve long sought to avoid: Abortion",
+      "description": "A confluence of forces could make it more challenging for companies to remain quiet on the sidelines on what is perhaps America's most polarizing social issue.",
+      "link": "https://www.washingtonpost.com/business/2019/05/31/corporations-are-getting-dragged-into-debate-theyve-long-sought-avoid-abortion/",
+      "url": "https://www.washingtonpost.com/business/2019/05/31/corporations-are-getting-dragged-into-debate-theyve-long-sought-avoid-abortion/",
+      "guid": "https://www.washingtonpost.com/business/2019/05/31/corporations-are-getting-dragged-into-debate-theyve-long-sought-avoid-abortion/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Fri, 31 May 2019 07:30:49 EDT",
+      "created": 1559302249000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc332480aa0150008816d88/master/pass/Gear-Kindle-Kids-Edition---All-Covers.jpg"
+              "https://www.washingtonpost.com/resizer/40pLGnpoBlGo-MOgTAmv7_kRl2Y=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UHQSM5T6JYI6TMPTWIZ74WAR54.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1800"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Huge Data Leak Doxes Members of Notorious Neo-Nazi Forum",
-      "description": "Apple Mail encryption, Ring doorbell Wi-Fi, and more of the week's top security news.",
-      "link": "https://www.wired.com/story/ironmarch-dox-security-roundup",
-      "url": "https://www.wired.com/story/ironmarch-dox-security-roundup",
-      "guid": {
-        "_": "5dbc4d1ec955950008b26756",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Security",
-      "dc_creator": "Brian Barrett",
-      "pubDate": "Sat, 09 Nov 2019 19:03:20 +0000",
-      "created": 1573326200000,
+      "title": "Stop the office AC overload: Study shows women are more productive when it’s warmer",
+      "description": "A new study shows women tend to perform better on certain skills when the temperature is a little warmer, making them more productive. But men tend to perform better when the temperature is a bit cooler.",
+      "link": "https://www.washingtonpost.com/business/2019/05/24/stop-office-ac-overload-study-shows-women-are-more-productive-when-its-warmer/",
+      "url": "https://www.washingtonpost.com/business/2019/05/24/stop-office-ac-overload-study-shows-women-are-more-productive-when-its-warmer/",
+      "guid": "https://www.washingtonpost.com/business/2019/05/24/stop-office-ac-overload-study-shows-women-are-more-productive-when-its-warmer/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Fri, 24 May 2019 12:29:51 EDT",
+      "created": 1558715391000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc5db33182de80009f7ff19/master/pass/Sec-crackedglass-185275299.jpg"
+              "https://www.washingtonpost.com/resizer/OPF3s85ybtcoc-3jlUIL1cVQdvQ=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HMZ7KKBFVEI6TLKTQJCIMKADCE.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Icelandic Walruses May Have Been Early Victims of Human-Driven Extinction",
-      "description": "The timing of the walrus's disappearance suggests the Vikings, and their ivory trade, had something to do with it.",
-      "link": "https://www.wired.com/story/icelandic-walruses-may-have-been-early-victims-of-human-driven-extinction",
-      "url": "https://www.wired.com/story/icelandic-walruses-may-have-been-early-victims-of-human-driven-extinction",
-      "guid": {
-        "_": "5dc0953c5b8c9000084c7cbb",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Science",
-      "dc_creator": "Kiona N. Smith, Ars Technica",
-      "pubDate": "Sat, 09 Nov 2019 19:00:00 +0000",
-      "created": 1573326000000,
+      "title": "Robert F. Smith’s Morehouse commencement speech embodied leadership in action",
+      "description": "Many people give graduation speeches about changing the world. Smith actually did something that could.",
+      "link": "https://www.washingtonpost.com/business/2019/05/20/robert-f-smiths-morehouse-commencement-speech-embodied-leadership-action/",
+      "url": "https://www.washingtonpost.com/business/2019/05/20/robert-f-smiths-morehouse-commencement-speech-embodied-leadership-action/",
+      "guid": "https://www.washingtonpost.com/business/2019/05/20/robert-f-smiths-morehouse-commencement-speech-embodied-leadership-action/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Mon, 20 May 2019 16:14:41 EDT",
+      "created": 1558383281000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc0cd9708f85000087192f5/master/pass/Science_arsewalrus-10012884.jpg"
+              "https://www.washingtonpost.com/resizer/RK7Jm1PiQPQqQMEIo0m_HvrGgDM=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QCRIIVT3DEI6TMPTWIZ74WAR54.jpg"
             ],
             "width": [
-              "2300"
-            ],
-            "height": [
-              "1534"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "Empathy Is Tearing Us Apart",
-      "description": "Americans are as polarized as they've ever been. Could the problem be that we're caring for each other too much?",
-      "link": "https://www.wired.com/story/empathy-is-tearing-us-apart",
-      "url": "https://www.wired.com/story/empathy-is-tearing-us-apart",
-      "guid": {
-        "_": "5dc5dc4bd08f8f00081215ea",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Ideas",
-      "dc_creator": "Robert Wright",
-      "pubDate": "Sat, 09 Nov 2019 17:45:01 +0000",
-      "created": 1573321501000,
+      "title": "#MeToo backlash: More male managers avoid mentoring women or meeting alone with them",
+      "description": "A survey by LeanIn found that more men are uncomfortable with one-on-one workplace activities with women like mentoring or work dinners. And amid all Facebook's issues, Sheryl Sandberg has something to say about it.",
+      "link": "https://www.washingtonpost.com/business/2019/05/17/metoo-backlash-more-male-managers-avoid-mentoring-women-or-meeting-alone-with-them/",
+      "url": "https://www.washingtonpost.com/business/2019/05/17/metoo-backlash-more-male-managers-avoid-mentoring-women-or-meeting-alone-with-them/",
+      "guid": "https://www.washingtonpost.com/business/2019/05/17/metoo-backlash-more-male-managers-avoid-mentoring-women-or-meeting-alone-with-them/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Fri, 17 May 2019 08:30:23 EDT",
+      "created": 1558096223000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc622c9dea30b00096c6cb4/master/pass/Ideas_Trump-Polarize-1175361409.jpg"
+              "https://www.washingtonpost.com/resizer/S-d_TD8tx9-gTPgJ3fiSXW2MYEM=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JM25IVQJFYI6TCKCB32EFZMQSQ.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1800"
+              "606"
             ]
           }
         ]
       }
     },
     {
-      "title": "'Terminator: Dark Fate' Didn't Need an Exploding Airplane",
-      "description": "The new movie in the franchise is too focused on trying to top the previous films.",
-      "link": "https://www.wired.com/2019/11/geeks-guide-terminator-dark-fate",
-      "url": "https://www.wired.com/2019/11/geeks-guide-terminator-dark-fate",
-      "guid": {
-        "_": "5dc510dad08f8f00081215d5",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Geek's Guide to the Galaxy",
-      "pubDate": "Sat, 09 Nov 2019 14:00:00 +0000",
-      "created": 1573308000000,
+      "title": "More CEOs were forced out for ethical lapses in 2018 than poor financial performance",
+      "description": "A new study by PwC found that CEO turnover hit a record high -- and that improper conduct was behind more forced departures than any other reason for the first time.",
+      "link": "https://www.washingtonpost.com/business/2019/05/15/more-ceos-were-forced-out-ethical-lapses-than-poor-financial-performance/",
+      "url": "https://www.washingtonpost.com/business/2019/05/15/more-ceos-were-forced-out-ethical-lapses-than-poor-financial-performance/",
+      "guid": "https://www.washingtonpost.com/business/2019/05/15/more-ceos-were-forced-out-ethical-lapses-than-poor-financial-performance/",
+      "dc_creator": "Jena McGregor",
+      "pubDate": "Wed, 15 May 2019 00:02:17 EDT",
+      "created": 1557892937000,
       "media": {
         "thumbnail": [
           {
             "url": [
-              "https://media.wired.com/photos/5dc59cd70aa0150008816da5/master/pass/Cul-PHX_09454R.jpg"
+              "https://www.washingtonpost.com/resizer/nJnyi05sq0JqD3m-TQE0SJxeZgI=/606x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NFRVUZSGPAI6TFFL2LO2HQG7KI.jpg"
             ],
             "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Electric Cars—and Irrationality—Just Might Save the Stick Shift",
-      "description": "Some people are so passionate about doing their own shifting, they keep manual transmissions in cars converted to run on electric power.",
-      "link": "https://www.wired.com/story/aston-martin-electric-cars-stick-shift-manual",
-      "url": "https://www.wired.com/story/aston-martin-electric-cars-stick-shift-manual",
-      "guid": {
-        "_": "5dc5aa264672dd0008e03418",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Transportation",
-      "dc_creator": "Brett Berk",
-      "pubDate": "Sat, 09 Nov 2019 13:00:00 +0000",
-      "created": 1573304400000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc5bef2a14c980008129b75/master/pass/Transpo-stickshift-1096606482.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "13 Great Tech Deals: Cameras, Laptops, Watches, and More",
-      "description": "Whether you need an awesome watch or a giant Lego rocket, these are the best deals around.",
-      "link": "https://www.wired.com/story/best-tech-deals-garmin-fenix-sony-rx-nov-2019",
-      "url": "https://www.wired.com/story/best-tech-deals-garmin-fenix-sony-rx-nov-2019",
-      "guid": {
-        "_": "5da5ee460983b50009348438",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Gear",
-      "dc_creator": "WIRED Staff",
-      "pubDate": "Sat, 09 Nov 2019 12:00:00 +0000",
-      "created": 1573300800000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc48993dc63930009ef0151/master/pass/Gear-Sony-RX100-III-SOURCE-Amazon.jpg"
-            ],
-            "width": [
-              "2258"
-            ],
-            "height": [
-              "1692"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "How Do We Bring Equality to Data Ownership and Usage?",
-      "description": "Computational biologist Laura Boykin says scientists are “asleep at the wheel”; activist Malkia Devich-Cyril says citizens also need to pressure technology companies to change.",
-      "link": "https://www.wired.com/story/laura-boykin-malkia-devich-cyril-data-privacy-wired25",
-      "url": "https://www.wired.com/story/laura-boykin-malkia-devich-cyril-data-privacy-wired25",
-      "guid": {
-        "_": "5dc1b53508f85000087192f6",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Security",
-      "dc_creator": "Zak Jason",
-      "pubDate": "Sat, 09 Nov 2019 02:43:45 +0000",
-      "created": 1573267425000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc65434d08f8f00081215f7/master/pass/W25-LauraBoykin-DinaLitovsky_1959.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1597"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Here’s How to Watch the WIRED25 Summit",
-      "description": "See WIRED editors live in conversation with Jeff Weiner, Anne Neuberger, Matthew Prince, Dawn Song, Patrick Collison, Traci Des Jardins, Astro Teller, and more.",
-      "link": "https://www.wired.com/story/wired25-livestream-2019",
-      "url": "https://www.wired.com/story/wired25-livestream-2019",
-      "guid": {
-        "_": "5dc054d741c1680009813bd3",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Business",
-      "dc_creator": "Boone Ashworth",
-      "pubDate": "Sat, 09 Nov 2019 02:21:00 +0000",
-      "created": 1573266060000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc5b4afb8fdfa0008290a11/master/pass/W25_NickThompson_PhucPham_F33A8475.jpg"
-            ],
-            "width": [
-              "2300"
-            ],
-            "height": [
-              "1533"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "AI Researcher Anca Dragan on Helping Robots Understand Humans",
-      "description": "The UC Berkeley professor talks about using algorithms to make it safer for robots and people to cross paths.",
-      "link": "https://www.wired.com/story/anca-dragan-artificial-intelligence-berkeley-wired25",
-      "url": "https://www.wired.com/story/anca-dragan-artificial-intelligence-berkeley-wired25",
-      "guid": {
-        "_": "5dc09787f348560008126028",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Science",
-      "dc_creator": "Gregory Barber",
-      "pubDate": "Sat, 09 Nov 2019 02:10:05 +0000",
-      "created": 1573265405000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc6527dd08f8f00081215f5/master/pass/W25-Anca-Dragan-DinaLitovsky-2043.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1597"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "It's Time to Rethink Your Data—Including Your Smell Data",
-      "description": "An interactive art exhibit at WIRED25 explores the ways technology may expose—or obscure—the details of our lives.",
-      "link": "https://www.wired.com/story/personal-data-collection-mozilla-glass-room-wired25",
-      "url": "https://www.wired.com/story/personal-data-collection-mozilla-glass-room-wired25",
-      "guid": {
-        "_": "5dc09c9c41c1680009813bde",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Culture",
-      "dc_creator": "Arielle Pardes",
-      "pubDate": "Sat, 09 Nov 2019 01:54:38 +0000",
-      "created": 1573264478000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc61b6c8ebd000007e1452d/master/pass/DSC_2102.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1597"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Ben Horowitz on a Murder, Genghis Khan, and Corporate Culture",
-      "description": "If he simply told companies that new employee orientation programs were valuable they would blow him off. So he resorts to violence.",
-      "link": "https://www.wired.com/story/ben-horowitz-andreessen-horowitz-wired25",
-      "url": "https://www.wired.com/story/ben-horowitz-andreessen-horowitz-wired25",
-      "guid": {
-        "_": "5dc08f0b6183ed000825214e",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Business",
-      "dc_creator": "Paris Martineau",
-      "pubDate": "Sat, 09 Nov 2019 01:47:12 +0000",
-      "created": 1573264032000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc655e70aa0150008816dda/master/pass/W25-BenHorowitz-DinaLitovsky_1773.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1598"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "The Race to Bring Meat Alternatives to Scale",
-      "description": "Memphis Meats' lab-grown flesh approach is still far off, but Impossible Foods' plant-based approach is already on the menu at Burger King.",
-      "link": "https://www.wired.com/story/uma-valeti-memphis-meats-wired25",
-      "url": "https://www.wired.com/story/uma-valeti-memphis-meats-wired25",
-      "guid": {
-        "_": "5dc08d7e5b8c9000084c7cb9",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Science",
-      "dc_creator": "Megan Molteni",
-      "pubDate": "Sat, 09 Nov 2019 01:08:03 +0000",
-      "created": 1573261683000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc656d0c96358000859e723/master/pass/W25-Uma%20Valeti-DinaLitovsky-1728.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1598"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Slack's Stewart Butterfield on Making Workers More Productive—or Not",
-      "description": "The CEO spoke with WIRED’s editor in chief about the pros and cons of replacing in-person workplace conversations with messaging software.",
-      "link": "https://www.wired.com/story/slack-stewart-butterfield-wired25",
-      "url": "https://www.wired.com/story/slack-stewart-butterfield-wired25",
-      "guid": {
-        "_": "5dc0947d08f85000087192e2",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Business",
-      "dc_creator": "Louise Matsakis",
-      "pubDate": "Sat, 09 Nov 2019 01:03:38 +0000",
-      "created": 1573261418000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc654fbdea30b00096c6cc4/master/pass/W25-Stewart-Butterfield-Dina-Litovsky-1802.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1597"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "African AI Experts Get Excluded From a Conference—Again",
-      "description": "For the second year in a row, researchers from the developing world have been denied visas to a major AI conference in Canada.",
-      "link": "https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again",
-      "url": "https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again",
-      "guid": {
-        "_": "5dc5ab7a0aa0150008816db8",
-        "isPermaLink": [
-          "false"
-        ]
-      },
-      "category": "Business",
-      "dc_creator": "Will Knight",
-      "pubDate": "Sat, 09 Nov 2019 00:37:25 +0000",
-      "created": 1573259845000,
-      "media": {
-        "thumbnail": [
-          {
-            "url": [
-              "https://media.wired.com/photos/5dc5b5b4c96358000859e710/master/pass/Biz-trudeau-1174359612-2.jpg"
-            ],
-            "width": [
-              "2400"
-            ],
-            "height": [
-              "1600"
+              "606"
             ]
           }
         ]
       }
     }
   ],
-  "title": "Wired",
-  "description": "The latest from www.wired.com",
-  "url": "https://www.wired.com",
+  "title": "Leadership",
+  "description": "Leadership focuses on management and leadership positions.",
+  "url": "http://www.washingtonpost.com/pb/business/on-leadership/",
   "image": ""
 }
