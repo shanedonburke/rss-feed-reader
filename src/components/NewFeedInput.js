@@ -5,7 +5,7 @@ class NewFeedInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: '',
+      value: '', 
       feed: {}
   };
 
@@ -24,7 +24,6 @@ class NewFeedInput extends React.Component {
         feedURL: this.state.value,
         feed: this.state.feed
     }
-
     Feed.load(this.state.value, (err, rss) => {
       console.log(rss);
       if (err) {
