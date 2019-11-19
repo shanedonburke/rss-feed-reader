@@ -31,8 +31,8 @@ app.get('/get-feed-list', function(req, res) {
     let feedListPromise = feedList.getFeedList();
 
     feedListPromise.then(
-        feedList => {
-            res.status(200).send(JSON.stringify(feedList));
+        feeds => {
+            res.status(200).send(JSON.stringify(feeds));
         },
         error => {
             res.status(500).send(error);
