@@ -3,10 +3,18 @@ import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 
 export default class LinkNav extends React.Component {
-  
+  constructor(props){
+    super(props);
+    this.state = {
+      path: ""
+    }
+  }
+  componentDidMount(){
+    this.setState({path: document.location.pathname})
+  }
   render() {
     return (
-      <Nav variant="pills" defaultActiveKey="/home" fill>
+      <Nav variant="pills" activeKey={this.state.path} fill>
         <Nav.Item>
           {/* <Link to="/"> */}
             <Nav.Link href="/home">Active</Nav.Link>
@@ -14,7 +22,7 @@ export default class LinkNav extends React.Component {
         </Nav.Item>
         <Nav.Item>
           {/* <Link to="/favorites"> */}
-            <Nav.Link href="/addArticles" eventKey="link-1" onClick="active">Add Articles</Nav.Link>
+            <Nav.Link href="/addArticles">Add Articles</Nav.Link>
           {/* </Link> */}
         </Nav.Item>
         <Nav.Item>
