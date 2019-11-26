@@ -14,10 +14,10 @@ export default class LinkNav extends React.Component {
   }
   render() {
     return (
-      <Nav variant="pills" activeKey={this.state.path} fill>
+      <Nav variant="pills" className="topnav" activeKey={this.state.path} fill>
         <Nav.Item>
           {/* <Link to="/"> */}
-            <Nav.Link href="/home">Active</Nav.Link>
+            <Nav.Link href="/">Active</Nav.Link>
           {/* </Link> */}
         </Nav.Item>
         <Nav.Item>
@@ -26,12 +26,7 @@ export default class LinkNav extends React.Component {
           {/* </Link> */}
         </Nav.Item>
         <Nav.Item>
-          {/* <Link to="/profile"> */}
-            <Nav.Link eventKey="link-2">Profile</Nav.Link>
-          {/* </Link> */}
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="#">My Feeds</Nav.Link>
+          <Nav.Link href="/my-feeds">My Feeds</Nav.Link>
         </Nav.Item>
       </Nav>
     );

@@ -4,7 +4,7 @@ const $path = require("path");
 const dataDir = $path.resolve("public/data");
 
 const feedFileTemplatePath = $path.resolve(dataDir, "feedFileTemplate.json");
-const feedFilePath = $path.resolve(dataDir, "currentFeed.json");
+const feedFilePath = $path.resolve(dataDir, "feedList.json");
 
 async function addFeed(body) {
     let feedFileDict;

@@ -10,18 +10,16 @@ import DisplayFeed from "./components/FeedList/displayFeeds";
 
 function App() {
   return (
-    // <BrowserRouter>
-      <div className="App">
-        <div className="header">
-          <h1>Rss feed reader</h1>
-          <p></p>
-        </div>
+    <div className="App">
+      <div className="header">
+        <h1>Rss Feed Reader</h1>
+        <p></p>
+      </div>
 
         <LinkNav />
-        <Link to="/my-feeds">Hi</Link>
         <Route exact path="/addArticles"><NewFeedInput/></Route>
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
             <div className="row">
               <DisplayFeed/>
               {/* <div className="column">
