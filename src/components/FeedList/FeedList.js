@@ -16,8 +16,8 @@ class FeedList extends React.Component {
       .then(data => {
         return data.json();
       })
-      .then(res => {
-        this.setState({ urls: res.feedList });
+      .then(data => {
+        this.setState({urls: data});
       });
   }
 

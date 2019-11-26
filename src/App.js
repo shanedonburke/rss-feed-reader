@@ -19,9 +19,9 @@ function App() {
 
         <LinkNav />
         <Link to="/my-feeds">Hi</Link>
+        <Route exact path="/addArticles"><NewFeedInput/></Route>
         <Switch>
-          <Route exact path="/">
-            <NewFeedInput />
+          <Route exact path="/home">
             <div className="row">
               <DisplayFeed/>
               {/* <div className="column">

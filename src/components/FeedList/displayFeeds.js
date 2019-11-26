@@ -1,16 +1,22 @@
+
 import React from 'react';
 var http = require('http');
 
 const divStyle = {
-  width: '100%',
   border: 'solid 1px black'
 };
+
+const itemStyle = {
+  padding: '0 150px',
+  border: 'solid 1px black'
+}
 
 class DisplayFeed extends React.Component {
   constructor(props) {
     super(props);
+    this.redirect = this.redirect.bind(this);
     this.state = {
-      feed: {}
+      feed: this.props.feed
     }
   }
 
@@ -22,20 +28,25 @@ class DisplayFeed extends React.Component {
     console.log(this.state.feed);
   }
 
+  redirect(newLink) {
+    window.location.assign(newLink);
+  }
+
   render() {
     let feed = this.state.feed;
     if (feed != null) {
       return (
-        <div>
+        <div className={"feed-list"}>
             <h1>{feed.title}</h1>
             <h2>{feed.description}</h2>
-      {feed.items && feed.items.map((item) => {
-        return (<div key={item.created} style={divStyle}>
+
+        {feed.items && feed.items.map((item) => {
+          return (<div key={item.created} className={"feed-item"} onClick={() => { this.redirect(item.link) }}>
           <h3>{item.title}</h3>
-          <h4>{item.description}</h4>
-        </div>)
-      }) 
-      }
+          <p>{item.description}</p>
+          </div>)
+        }) 
+        }
             {
             //this.state.feed.items.map((item) => <p key={item.created}>{item.title}</p> )
             }
