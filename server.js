@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', function (req, res) {
     res.sendFile($path.resolve(publicDir, 'index.html'));
 });
+
 app.post('/add-feed', function (req, res) {
     const jsonFeed = $path.join(publicDir, '/data/currentFeed.json');
     fs.truncate(jsonFeed, 0, () => {

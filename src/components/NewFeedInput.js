@@ -21,8 +21,8 @@ class NewFeedInput extends React.Component {
     event.preventDefault();
     
     const data = {
-        feedURL: this.state.value,
-        feed: this.state.feed
+        feedURL: this.state.value//,
+        //feed: this.state.feed
     }
     Feed.load(this.state.value, (err, rss) => {
       console.log(rss);
