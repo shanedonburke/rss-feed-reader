@@ -1,13 +1,9 @@
 import React from 'react'
-var Feed = require('rss-to-json');
 
 class NewFeedInput extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      value: '', 
-      feed: {}
-  };
+    this.state = {value: ''};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -21,25 +17,18 @@ class NewFeedInput extends React.Component {
     event.preventDefault();
     
     const data = {
-        feedURL: this.state.value,
-        feed: this.state.feed
+        feedURL: this.state.value
     }
-    Feed.load(this.state.value, (err, rss) => {
-      console.log(rss);
-      if (err) {
-        this.setState({feed: {title: "error"}});
-      }
-      else { this.setState({feed: rss}); }
-      data.feed = this.state.feed;
-      console.log(this.state.feed);
-    });
+    
 
     fetch('/add-feed', {
       method: 'post',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify(data)
-     }).then((response) => {
-       alert(response.text());
+     }).then((response, err) => {
+       if (!err) {
+         alert("New feed added successfully!");
+       }
      });
 
   }
@@ -58,4 +47,3 @@ class NewFeedInput extends React.Component {
 }
 
 export default NewFeedInput;
-

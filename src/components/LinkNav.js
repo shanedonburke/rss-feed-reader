@@ -17,12 +17,12 @@ export default class LinkNav extends React.Component {
       <Nav variant="pills" className="topnav" activeKey={this.state.path} fill>
         <Nav.Item>
           {/* <Link to="/"> */}
-            <Nav.Link href="/">Active</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
           {/* </Link> */}
         </Nav.Item>
         <Nav.Item>
           {/* <Link to="/favorites"> */}
-            <Nav.Link href="/addArticles">Add Articles</Nav.Link>
+            <Nav.Link href="/addArticles">Add Feeds</Nav.Link>
           {/* </Link> */}
         </Nav.Item>
         <Nav.Item>

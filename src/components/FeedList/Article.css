@@ -1,0 +1,28 @@
+.article-div {
+  width: 50%;
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid #111111;
+  background-color: #343434;
+  cursor: pointer;
+}
+
+.thumbnail {
+  max-height: 80px;
+  width: auto;
+  padding: 10px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.article-text {
+  text-align: left;
+}
+
+.article-div:hover {
+  background-color: #3F3F3F;
+}

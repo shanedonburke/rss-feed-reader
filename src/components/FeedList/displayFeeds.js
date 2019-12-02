@@ -1,59 +1,55 @@
-
-import React from 'react';
-var http = require('http');
-
-const divStyle = {
-  border: 'solid 1px black'
-};
-
-const itemStyle = {
-  padding: '0 150px',
-  border: 'solid 1px black'
-}
+import React from "react";
+import Article from "./Article";
+import "./displayFeeds.css";
 
 class DisplayFeed extends React.Component {
   constructor(props) {
     super(props);
-    this.redirect = this.redirect.bind(this);
     this.state = {
-      feed: this.props.feed
-    }
+      articles: null,
+      noFeeds: false
+    };
   }
 
   async componentDidMount() {
-    const response = await fetch('/get-feed-list');
-    let feed = await response.json();
-    console.log(feed);
-    this.setState({feed: feed});
-    console.log(this.state.feed);
-  }
-
-  redirect(newLink) {
-    window.location.assign(newLink);
+    const response = await fetch("/get-articles", { method: "post" });
+    if (response.status === 500) {
+      this.setState({ noFeeds: true });
+    } else {
+      let articleList = await response.json();
+      if (articleList.length === 0) {
+        this.setState({noFeeds: true});
+      } else {
+        this.setState({ articles: articleList });
+      }
+    }
   }
 
   render() {
-    let feed = this.state.feed;
-    if (feed != null) {
-      return (
-        <div className={"feed-list"}>
-            <h1>{feed.title}</h1>
-            <h2>{feed.description}</h2>
+    let { articles, noFeeds } = this.state;
 
-        {feed.items && feed.items.map((item) => {
-          return (<div key={item.created} className={"feed-item"} onClick={() => { this.redirect(item.link) }}>
-          <h3>{item.title}</h3>
-          <p>{item.description}</p>
-          </div>)
-        }) 
-        }
-            {
-            //this.state.feed.items.map((item) => <p key={item.created}>{item.title}</p> )
-            }
+    if (articles && !noFeeds) {
+      return (
+        <div className="root-div">
+          {articles.map((article, i) => (
+            <Article
+              key={i}
+              title={article.title}
+              description={article.description}
+              thumbnail={article.thumbnail}
+              url={article.url}
+            />
+          ))}
         </div>
-      )
-    }
-    else return <h2>invalid feed link or CORS error encountered. Try another link</h2>
+      );
+    } else
+      return (
+        <div className="waiting-div">
+          <h3>
+            {noFeeds ? "You aren't subscribed to any feeds!" : "Please wait for feeds to load."}
+          </h3>
+        </div>
+      );
   }
 }
 

@@ -40,4 +40,31 @@ app.get('/get-feed-list', function(req, res) {
     );
 });
 
+app.post('/get-articles', function(req, res) {
+    let articlesPromise = feedList.getArticles();
+
+    articlesPromise.then(
+        articles => {
+            res.status(200).send(JSON.stringify(articles));
+        },
+        error => {
+            res.status(500).send("You aren't subscribed to any feeds!");
+        }
+    );
+});
+
+app.post('/delete-feed', function(req, res) {
+    const url = req.body.url;
+    let deletePromise = feedList.deleteFeed(url);
+
+    deletePromise.then(
+        success => {
+            res.status(200).send("Success!");
+        },
+        error => {
+            res.status(500).send("Error deleting feed.");
+        }
+    )
+});
+
 app.listen(port, function () { return console.log("Listening on port " + port); });

@@ -22,20 +22,6 @@ function App() {
           <Route exact path="/">
             <div className="row">
               <DisplayFeed/>
-              {/* <div className="column">
-                <h2>Article 1</h2>
-                <p>content</p>
-              </div>
-
-              <div className="column">
-                <h2>Article 2</h2>
-                <p>Content</p>
-              </div>
-
-              <div className="column">
-                <h2>Article 3</h2>
-                <p>Contect</p>
-              </div> */}
             </div>
           </Route>
           <Route path="/my-feeds" component={getFeed}/>
