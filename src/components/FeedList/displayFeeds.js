@@ -38,6 +38,7 @@ class DisplayFeed extends React.Component {
               description={article.description}
               thumbnail={article.thumbnail}
               url={article.url}
+              created={article.created}
             />
           ))}
         </div>
