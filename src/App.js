@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import logo from "./logo.svg";
+import { Route, Switch } from "react-router-dom";
 import LinkNav from "./components/LinkNav";
 import NewFeedInput from "./components/NewFeedInput";
 import getFeed from "./components/FeedList/FeedList";
@@ -8,7 +7,11 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DisplayFeed from "./components/FeedList/displayFeeds";
 
+/**
+ * Main container component for app, including routes
+ */
 function App() {
+  // Render title, navbar, and routes
   return (
     <div className="App">
       <div className="header">
@@ -27,7 +30,6 @@ function App() {
           <Route path="/my-feeds" component={getFeed}/>
         </Switch>
       </div>
-    // </BrowserRouter>
   );
 }
 

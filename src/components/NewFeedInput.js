@@ -1,12 +1,15 @@
 import React from 'react'
 
+/**
+ * Text input for adding a new feed URL
+ */
 class NewFeedInput extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {value: ''}; // Textbox value
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this); // Textbox change
+    this.handleSubmit = this.handleSubmit.bind(this); // Submit button
   }
 
   handleChange(event) {
@@ -20,7 +23,7 @@ class NewFeedInput extends React.Component {
         feedURL: this.state.value
     }
     
-
+    // Add feed to list
     fetch('/add-feed', {
       method: 'post',
       headers: {'Content-Type':'application/json'},
@@ -33,6 +36,9 @@ class NewFeedInput extends React.Component {
 
   }
 
+  /**
+   * Render text input and submit button
+   */
   render() {
     return (
       <form onSubmit={this.handleSubmit}>

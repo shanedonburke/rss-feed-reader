@@ -2,22 +2,28 @@ import React from "react";
 import Article from "./Article";
 import "./displayFeeds.css";
 
+/**
+ * Container component wherein article cards are shown.
+ */
 class DisplayFeed extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      articles: null,
-      noFeeds: false
+      articles: null, // Articles not yet loaded
+      noFeeds: false // Will be true if no articles are available after loading
     };
   }
 
   async componentDidMount() {
     const response = await fetch("/get-articles", { method: "post" });
+
     if (response.status === 500) {
+      // No articles to show due to backend error
       this.setState({ noFeeds: true });
     } else {
       let articleList = await response.json();
       if (articleList.length === 0) {
+        // No articles available, usually due to no subscribed feeds
         this.setState({noFeeds: true});
       } else {
         this.setState({ articles: articleList });
@@ -26,9 +32,13 @@ class DisplayFeed extends React.Component {
   }
 
   render() {
-    let { articles, noFeeds } = this.state;
+    let {
+      articles, // List of article objects
+      noFeeds // True if no articles are available
+    } = this.state;
 
     if (articles && !noFeeds) {
+      // We have articles to show
       return (
         <div className="root-div">
           {articles.map((article, i) => (
@@ -44,6 +54,7 @@ class DisplayFeed extends React.Component {
         </div>
       );
     } else
+      // No articles to show (not yet loaded or none available)
       return (
         <div className="waiting-div">
           <h3>
