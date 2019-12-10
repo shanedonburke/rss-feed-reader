@@ -17,3 +17,4 @@ This project is brought to you by:
 - Yug Patel
 - Bao Nguyen
 ### Screenshots
+![Screenshot](Screenshot.png)
